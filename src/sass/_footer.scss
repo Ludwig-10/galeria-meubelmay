@@ -1,0 +1,21 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+  padding: 30px;
+    background-color: #d7b877;
+}
+.footer_kontakt {
+    text-align: center;
+}
+.footer_adres:not(:last-child) {
+margin-bottom: 12px;
+}
+.footer_link {
+    display: block;
+}
+.time {
+    text-decoration: underline;
+}
+.footer_adres {
+    color: white;
+}
