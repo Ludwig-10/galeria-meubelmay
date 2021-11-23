@@ -1,18 +1,101 @@
-<!DOCTYPE html>
-<html lang="de">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
-    <title>Galeria-moebelmayhuerth</title>
-</head>
-  <body>
-    <!-- Так добавляются фрагменты в главные HTML-файлы страниц. -->
-    <!-- <include src="./partials/home.html"></include> -->
-    <include src="./partials/example.html"></include>
-
-    <!-- Скрипт идёт последним в разметке. В нём уже подключен главный SASS-файл. -->
+    <!DOCTYPE html>
+    <html lang="de">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+        <title>Galeria-moebelmayhuerth</title>
+    </head>
+    <body>
+      <header class="header">
+        <div class="head">
+            <div class="logo"> 
+                <a href="index.html">
+                    <span class="logo-city">Galerie</span>
+                    <span class="logo-logo">MÖBEL MAY</span>
+                    <span class="logo-city">Hürth</span>
+                </a>
+            </div>
+            <nav class="navi">
+               <ul class="navi-list">
+                <li class="navi-list-item">
+                  <a href="action.html">
+                    <span class="navi-text">AKTIONEN</span>
+                  </a>
+                </li>
+                 <li class="navi-list-item">
+                   <a href="servise.html">
+                     <span class="navi-text">SERVISE & LEISTUNGEN</span>
+                   </a>
+                 </li>
+                 <li class="navi-list-item">
+                    <a href="ankauf.html">
+                      <span class="navi-text">ANKAUF & VERKAUF</span>
+                    </a>
+                  </li>
+                 <li class="navi-list-item">
+                  <a href="preise.html">
+                    <span class="navi-text">PREISE</span>
+                  </a>
+                </li>
+                 <li  class="navi-list-item">
+                  <a href="#kontakt">
+                    <span class="navi-text">KONTAKT</span>
+                  </a>
+                </li>
+               </ul> 
+            </nav>
+        </div>
+      </header>
+        <main>
+          <section class="main-section">
+            <div class="section">
+            <p>Als Spezialisten mit langjähriger</p>
+            <p>Erfahrung in Sachen Dienstleistungen und Full Service rund um wertvolle, handgeknüpfte Teppiche, stehen wir Ihnen ab sofort auch an unserem neuen Standort in Hürth Berrenrath zur Seite. Dienstleistungen an wertvollen Orientteppichen sind Vertrauenssache. Wir nehmen uns Zeit für Sie und lassen keine Fragen offen wenn es um Pflege, Reparatur und Werterhalt Ihrer kostbaren Stücke geht. Verschaffen Sie sich hier gern einen ersten Überblick</p>
+          </div>
+          <div class="section">
+            <p>
+              Teppich waschen ohne aus dem Haus zu gehen!
+            </p>
+            <p>
+              Als kostenlosen Kundenservice holen wir Ihren Teppich gern bei Ihnen ab und liefern ihn selbstverständlich nach der Reinigung wieder an und legen den Teppich aus. Dabei versuchen wir uns so flexibel wie möglich an Ihr Zeitfenster anzupassen.
+            </p>
+            <button class="button" onclick="document.location.href = 'tel:022336209184'">
+              Kontaktieren Sie uns jetzt
+            </button>
+          </div>
+          <div class="section section_alt"> 
+            <p>
+              Alte Teppiche sind bares Geld wert, wenn Sie für ihren Teppich einen vernünftigen Preis erziehlen möchten, rufen Sie uns an!
+            </p>
+          </div>
+          </section>
+        </main>
+        <footer id="kontakt" class="footer">
+          <div class="footer_kontakt">
+<p class="footer_adres">Galerie MÖBELMAY Hürth &#8226; Wendelinusplatz 3 &#8226; 50354 Hürth &#8226; Tel. 02233 620 91 84 </p>
+<a class="footer_adres footer_link"href="mailto:galeriemoebelmaysp@gmail.com">galeriemoebelmaysp@gmail.com</a>
+<p class="footer_adres">
+  SAMUEL POHL &copy;  inhaber &#8226; Steuer-Nr. 60 451 732 862 &#8226; IHK 99942403
+</p>
+          </div>
+          <div class="footer_kontakt">
+            <h2 class="footer_adres time">Unsere Öffnungszeiten</h2>
+            <p class="footer_adres">
+            Mo bis Freitag von 11:00 bis 18:00
+            </p>
+            <p class="footer_adres">
+              Samstag von 12:00 bis 15:00
+              </p>
+            <p class="footer_adres">
+              Sonntag in Notfall nach telefonische Vereinbarung bei Wasser Schaden Brand schaden
+            </p>  
+            </div>
+        </footer>
+        
+    </body>
+    </html>
     <script src="./index.js"></script>
   </body>
 </html>

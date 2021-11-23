@@ -1,31 +1,32 @@
+
 body {
-    font-family: Montserrat;
+  font-family: Montserrat;
+}
+html {
+    scroll-behavior: smooth; 
   }
-  html {
-      scroll-behavior: smooth; 
-    }
-  a {
-      text-decoration: none;
-    }
-    
-    ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-    }
-    
-    button {
-      padding: 0;
-    }
-    
-    h1,
-    h2,
-    h3,
-    h4,
-    p {
-      margin: 0;
-    }
-    
-    section {
-      scroll-margin-top: 90px;
-    }
+a {
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  button {
+    padding: 0;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  p {
+    margin: 0;
+  }
+  
+  section {
+    scroll-margin-top: 90px;
+  }
