@@ -1,11 +1,11 @@
-// .main {
-//     display: flex;
-//     justify-content: center;
-//     background-image: url(../images/BG_foto-min.png);
-//    background-repeat: no-repeat;
-//   width: 100%;
-//   background-size: cover;
-// }
+.main {
+    display: flex;
+    justify-content: center;
+    background-image: url(../images/BGmin.png);
+   background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+}
 .imga {
     max-width: 100%;
     // background-size: cover;
@@ -15,7 +15,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 1000px;
     background-color: #385952;
     padding-top: 200px;
 
