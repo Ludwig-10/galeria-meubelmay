@@ -45,73 +45,137 @@
                   </a>
                 </li>
                </ul> 
-            </nav>
-            
-        </div>
+              </nav>
+              <button class="menu-button" type="button" aria-label="Переключатель мобильного меню" data-modal-open>
+                <svg width="20.5" height="12">
+                    <use class="menu-button__burger-icon" href="../src/images/sprite.svg#icon-menu-open"></use>
+                </svg>
+            </button>
+          </div>
+       
+  <div class="mobile-menu is-hidden" data-modal>
+  <div class="mobile-menu__up-wrapper">
+    <div class="logo">
+        <a class="mobile-menu__logo logo" href="./index.html" aria-label="логотип хелен">
+          <span class="logo-city">Galerie</span>
+          <span class="logo-logo">MÖBEL MAY</span>
+          <span class="logo-city">Hürth</span>
+        </a>
+    </div>
+    <button class="mobile-menu__menu-button" type="button" aria-label="Переключатель мобильного меню"
+        data-modal-close>
+        <svg width="20.5" height="12">
+            <use class="menu-button__close-icon" href="../src/images/sprite.svg#icon-menu-close"></use>
+        </svg></button>
+  </div>
+  <nav class="mob-site-nav">
+    <ul class="mob-site-nav__list">
+        <li class="mob-site-nav__list-item"><a class="navi-text" href="action.html">AKTIONEN</a>
+        </li>
+        <li class="mob-site-nav__list-item"><a class="navi-text" href="servise.html">SERVISE & LEISTUNGEN</a>
+        </li>
+        <li class="mob-site-nav__list-item"><a class="navi-text" href="ankauf.html">ANKAUF & VERKAUF</a></li>
+        <li class="mob-site-nav__list-item"><a class="navi-text" href="preise.html">PREISE</a></li>
+        <li class="mob-site-nav__list-item"><a class="navi-text" href="#kontakt">KONTAKT</a></li>
+    </ul>
+  </nav>
+  <button class="menu-button" type="button" aria-label="Переключатель мобильного меню" data-modal-open>
+    <svg width="20.5" height="12">
+        <use class="menu-button__burger-icon" href="../src/images/sprite.svg#icon-menu-open"></use>
+    </svg>
+</button>
+</div>
+
+<div class="mobile-menu is-hidden" data-modal>
+<div class="mobile-menu__up-wrapper">
+<div class="logo">
+<a class="mobile-menu__logo logo" href="./index.html" aria-label="логотип хелен">
+<span class="logo-city">Galerie</span>
+<span class="logo-logo">MÖBEL MAY</span>
+<span class="logo-city">Hürth</span>
+</a>
+</div>
+<button class="mobile-menu__menu-button" type="button" aria-label="Переключатель мобильного меню"
+data-modal-close>
+<svg width="20.5" height="12">
+<use class="menu-button__close-icon" href="../src/images/sprite.svg#icon-menu-close"></use>
+</svg></button>
+</div>
+<nav class="mob-site-nav">
+<ul class="mob-site-nav__list">
+<li class="mob-site-nav__list-item"><a class="navi-text" href="action.html">AKTIONEN</a>
+</li>
+<li class="mob-site-nav__list-item"><a class="navi-text" href="servise.html">SERVISE & LEISTUNGEN</a>
+</li>
+<li class="mob-site-nav__list-item"><a class="navi-text" href="ankauf.html">ANKAUF & VERKAUF</a></li>
+<li class="mob-site-nav__list-item"><a class="navi-text" href="preise.html">PREISE</a></li>
+<li class="mob-site-nav__list-item"><a class="navi-text" href="#kontakt">KONTAKT</a></li>
+</ul>
+</nav>
+</div>
     </header>
     <main class="main">
       <section class="main-section">
         <div class="section">
-            <p>Wir bieten verschiedene Leistungen rund um Ihren Teppich.
+            <p class="preise_deckription">Wir bieten verschiedene Leistungen rund um Ihren Teppich.
                  Damit Sie direkt wissen, wie viel jede Leistung kostet,
                   haben wir für Sie eine Preistabelle.</p>
                   <h2 class="servise_title">Grundwäsche für Wollteppiche</h2>
                   <ul>
-                      <li>
-                        Lanolin .................................... 35 € / m²
+                      <li class="preise_item">
+                        Lanolin <span class="preise_deko">................</span>.................... 35 € / m²
                       </li>
-                      <li>
-                        Kaschmir ............................... 49 € / m²
+                      <li class="preise_item">
+                        Kaschmir <span class="preise_deko">................</span>............... 49 € / m²
                     </li>
-                    <li>
-                        Edelwäsche .......................... 69 € / m²
+                    <li class="preise_item">
+                        Edelwäsche <span class="preise_deko">................</span>.......... 69 € / m²
                     </li>
-                    <li>
-                        Entfärbung / WS ................ 89 € / m²
+                    <li class="preise_item">
+                        Entfärbung / WS <span class="preise_deko">................</span> 89 € / m²
                     </li>
-                    <li>
-                        Antikwäsche ........................ 89 € / m² 
+                    <li class="preise_item">
+                        Antikwäsche <span class="preise_deko">................</span>........ 89 € / m² 
                     </li>
                   </ul>
       </div>
       <div class="section">
         <h2 class="servise_title">Grundwäsche für Seidenteppiche</h2>
         <ul>
-            <li>
-                Seidenprotein ................................................... 69 € / m²
+            <li class="preise_item">
+                Seidenprotein <span class="preise_deko">........................................</span>........... 69 € / m²
             </li>
-            <li>
-                Entfärbung / WS ............................................ 89 € / m²
+            <li class="preise_item">
+                Entfärbung / WS <span class="preise_deko">........................................</span>.... 89 € / m²
           </li>
-          <li>
-            Antikwäsche ..................................................... 89 € / m²
+          <li class="preise_item">
+            Antikwäsche <span class="preise_deko">........................................</span>............. 89 € / m²
           </li>
-          <li>
-            Fleckenbehandlung ................................... 40 € / m²
+          <li class="preise_item">
+            Fleckenbehandlung <span class="preise_deko">...................................</span> 40 € / m²
           </li>
-          <li>
-            Trockenreinigung (Maschine) ........ 12,90 € / m²
+          <li class="preise_item">
+            Trockenreinigung (Maschine) <span class="preise_deko">...</span>............ 12,90 € / m²
           </li>
-          <li>
-            Edelwäsche ....................................................... 69 € / m²
+          <li class="preise_item">
+            Edelwäsche <span class="preise_deko">........................................</span>............... 69 € / m²
           </li>
         </ul>
     </div>
       <div class="section">
               <h2 class="servise_title">Zusatzleistungen</h2>
               <ul>
-                  <li>
-                    Rückfettung / Imprägnierung ................... 15 € / m²
+                  <li class="preise_item">
+                    Rückfettung / Imprägnierung <span class="preise_deko">...........</span>........ 15 € / m²
                   </li>
-                  <li>
-                    Entmotten (Biologisch) .................................. 100 €/m²
- 
+                  <li class="preise_item">
+                    Entmotten (Biologisch) <span class="preise_deko">.</span>................................... 100 € / m²
                 </li>
-                <li>
-                    Mottenschutz ........................................................... 15 €/m²
+                <li class="preise_item">
+                    Mottenschutz <span class="preise_deko">...............................................</span>............ 15 € / m²
                 </li>
-                <li>
-                    Nat. Duftstoffe .......................................................... 15 €/m² 
+                <li class="preise_item">
+                    Nat. Duftstoffe <span class="preise_deko">.................................................</span>......... 15 € / m² 
                 </li>
               </ul>
   </div>
@@ -119,38 +183,38 @@
   <div class="section">
     <h2 class="servise_title">Fransen erneuern</h2>
     <ul>
-        <li>
-            bis 200.000 Knoten ................................. 300 € /lfd. M
+        <li class="preise_item">
+            bis 200.000 Knoten ................................. 300 € / lfd. M
         </li>
-        <li>
+        <li class="preise_item">
             bis 400.000 Knoten ................................ 400 € / lfd. M
       </li>
-      <li>
-        bis 600.000 Knoten .................................. 500 € /lfd. M
+      <li class="preise_item">
+        bis 600.000 Knoten .................................. 500 € / lfd. M
       </li>
-      <li>
-        bis 800.000 Knoten .................................. 600 € /lfd. M 
+      <li class="preise_item">
+        bis 800.000 Knoten .................................. 600 € / lfd. M 
       </li>
-      <li>
-        ab 800.000 Knoten ......................Verhandlungsbasis   
+      <li class="preise_item">
+        ab 800.000 Knoten <span class="preise_deko">..................</span>.... Verhandlungsbasis   
       </li>
-      <li>
-        Antikzuschlag .................................................. 175 € /lfd. M
+      <li class="preise_item">
+        Antikzuschlag <span class="preise_deko">...........................................</span>....... 175 € / lfd. M
       </li>
-      <li>
-        Seidenzuschlag ................................................ 175 € /lfd. M
+      <li class="preise_item">
+        Seidenzuschlag <span class="preise_deko">.............................................</span>... 175 € / lfd. M
       </li>
-      <li>
-        Lederband ............................................................ 60 € / Ifd. M
+      <li class="preise_item">
+        Lederband <span class="preise_deko">.................................................</span>........... 60 € / Ifd. M
       </li>
-      <li>
-        Unterlegmatte ..................................................... 69 € /lfd. M
+      <li class="preise_item">
+        Unterlegmatte <span class="preise_deko">...............................................</span>....... 69 € / lfd. M
     </li>
-    <li>
-        Pigmentieren mit Anilinfarben ............. 240 € /lfd. M
+    <li class="preise_item">
+        Pigmentieren mit Anilinfarben <span class="preise_deko">.......</span>....... 240 € / lfd. M
     </li>
-    <li>
-        Pigmentieren mit Antikfarben ............. 320 € / lfd. M
+    <li class="preise_item">
+        Pigmentieren mit Antikfarben <span class="preise_deko">........</span>....... 320 € / lfd. M
     </li>
     </ul>
 </div>
@@ -180,6 +244,7 @@ SAMUEL POHL &copy;  inhaber &#8226; Steuer-Nr. 60 451 732 862 &#8226; IHK 999424
     
 </body>
 </html>
+<script src="./project.js"></script>
 <script src="./preise.js"></script>
 </body>
 </html>

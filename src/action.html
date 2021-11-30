@@ -45,8 +45,41 @@
               </a>
             </li>
            </ul> 
-        </nav>
-    </div>
+          </nav>
+          <button class="menu-button" type="button" aria-label="Переключатель мобильного меню" data-modal-open>
+            <svg width="20.5" height="12">
+                <use class="menu-button__burger-icon" href="../src/images/sprite.svg#icon-menu-open"></use>
+            </svg>
+        </button>
+      </div>
+   
+<div class="mobile-menu is-hidden" data-modal>
+<div class="mobile-menu__up-wrapper">
+<div class="logo">
+    <a class="mobile-menu__logo logo" href="./index.html" aria-label="логотип хелен">
+      <span class="logo-city">Galerie</span>
+      <span class="logo-logo">MÖBEL MAY</span>
+      <span class="logo-city">Hürth</span>
+    </a>
+</div>
+<button class="mobile-menu__menu-button" type="button" aria-label="Переключатель мобильного меню"
+    data-modal-close>
+    <svg width="20.5" height="12">
+        <use class="menu-button__close-icon" href="../src/images/sprite.svg#icon-menu-close"></use>
+    </svg></button>
+</div>
+<nav class="mob-site-nav">
+<ul class="mob-site-nav__list">
+    <li class="mob-site-nav__list-item"><a class="navi-text" href="action.html">AKTIONEN</a>
+    </li>
+    <li class="mob-site-nav__list-item"><a class="navi-text" href="servise.html">SERVISE & LEISTUNGEN</a>
+    </li>
+    <li class="mob-site-nav__list-item"><a class="navi-text" href="ankauf.html">ANKAUF & VERKAUF</a></li>
+    <li class="mob-site-nav__list-item"><a class="navi-text" href="preise.html">PREISE</a></li>
+    <li class="mob-site-nav__list-item"><a class="navi-text" href="#kontakt">KONTAKT</a></li>
+</ul>
+</nav>
+</div>
   </header>
     <main class="main">
       <section class="main-section">
@@ -88,6 +121,7 @@ SAMUEL POHL &copy;  inhaber &#8226; Steuer-Nr. 60 451 732 862 &#8226; IHK 999424
     
 </body>
 </html>
+<script src="./project.js"></script>
 <script src="./action.js"></script>
 </body>
 </html>

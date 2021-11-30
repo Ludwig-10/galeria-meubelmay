@@ -6,10 +6,6 @@
   width: 100%;
   background-size: cover;
 }
-.imga {
-    max-width: 100%;
-    // background-size: cover;
-}
 .main-section {
     display: flex;
     flex-direction: column;
@@ -19,7 +15,8 @@
     background-color: #385952;
     padding-top: 200px;
 
-}.section {
+}
+.section {
     // display: flex;
     // justify-content: center;
     // align-items: center;
@@ -31,6 +28,8 @@
     line-height: 1.5;
     margin-top: 50px;
     text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .section:last-child {
     margin-bottom: 50px;
@@ -50,4 +49,59 @@
     margin-bottom: 15px;
     padding: 20px;
     background-color: red;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .section {
+width: 250px;
+    }
+h2 {
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 1.36;
+letter-spacing: .03em;
+}
+p {
+    font-weight: 500;
+font-size: 14px;
+line-height: 1.43;
+letter-spacing: .08em;
+}
+.servise_menu_list_item{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.43;
+    letter-spacing: .08em; 
+}
+.preise_deko {
+    display: none;
+}
+.preise_item {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.43;
+    letter-spacing: .08em; 
+}
+.ankauf_section {
+    display: block;
+ 
+}
+.ankauf_img {
+    width: 250px;
+}
+}
+
+@media screen and (min-width: 1344px) {
+    .ankauf_section {
+        display: flex;
+        justify-content: space-between; 
+    }
+}
+.preise_deckription {
+    font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.36;
+letter-spacing: .03em;
+    margin-bottom: 20px;
 }
