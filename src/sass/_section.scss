@@ -28,8 +28,8 @@
     line-height: 1.5;
     margin-top: 50px;
     text-align: center;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .section:last-child {
     margin-bottom: 50px;
@@ -47,12 +47,12 @@
 }
 .section_alt {
     margin-bottom: 15px;
-    padding: 20px;
+    padding: 10px;
     background-color: red;
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
     .section {
-width: 250px;
+width: 320px;
     }
 h2 {
 font-style: normal;
@@ -63,14 +63,14 @@ letter-spacing: .03em;
 }
 p {
     font-weight: 500;
-font-size: 14px;
-line-height: 1.43;
+font-size: 16px;
+line-height: 1.6;
 letter-spacing: .08em;
 }
 .servise_menu_list_item{
     font-weight: 500;
-    font-size: 14px;
-    line-height: 1.43;
+    font-size: 16px;
+    line-height: 1.6;
     letter-spacing: .08em; 
 }
 .preise_deko {
@@ -78,17 +78,36 @@ letter-spacing: .08em;
 }
 .preise_item {
     font-weight: 500;
-    font-size: 14px;
-    line-height: 1.43;
-    letter-spacing: .08em; 
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: .04em; 
+    text-align: justify;
+}
+.preise_item:not(:last-child){
+    margin-bottom: 20px;
 }
 .ankauf_section {
     display: block;
  
 }
 .ankauf_img {
-    width: 250px;
+    width: 320px;
 }
+}
+@media screen and (min-width: 768px) and (max-width: 1343px) {
+    .section {
+        width: 680px;
+            }
+            .ankauf_img {
+                width: 680px;
+            }
+            .preise_item {
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 1.6;
+                letter-spacing: .04em; 
+                text-align: justify;
+            }
 }
 
 @media screen and (min-width: 1344px) {
