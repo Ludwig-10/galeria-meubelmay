@@ -2,7 +2,5 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 
 },{"./../images/BGmin.png":[["BGmin.16ca0a20.png","YkNa"],"YkNa"]}],"FbOa":[function(require,module,exports) {
 "use strict";require("./sass/main.scss");
-},{"./sass/main.scss":"clu1"}],"Focm":[function(require,module,exports) {
-"use strict";require("./sass/main.scss"),require("./servise"),require("./preise"),require("./ankauf"),require("./action");
-},{"./sass/main.scss":"clu1","./servise":"FbOa","./preise":"FbOa","./ankauf":"FbOa","./action":"FbOa"}]},{},["Focm"], null)
-//# sourceMappingURL=/galeria-meubelmay/src.507fadae.js.map
+},{"./sass/main.scss":"clu1"}]},{},["FbOa"], null)
+//# sourceMappingURL=/galeria-meubelmay/servise.d6492f42.js.map
