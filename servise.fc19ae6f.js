@@ -3,4 +3,4 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{"./../images/BGmin.png":[["BGmin.16ca0a20.png","YkNa"],"YkNa"]}],"FbOa":[function(require,module,exports) {
 "use strict";require("./sass/main.scss");
 },{"./sass/main.scss":"clu1"}]},{},["FbOa"], null)
-//# sourceMappingURL=/galeria-meubelmay/servise.1800d525.js.map
+//# sourceMappingURL=/galeria-meubelmay/servise.fc19ae6f.js.map
